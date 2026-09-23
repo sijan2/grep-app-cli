@@ -1,0 +1,20 @@
+{
+  "name": "grep-app-cli",
+  "version": "1.2.0",
+  "module": "src/cli.ts",
+  "type": "module",
+  "bin": {
+    "grep-app": "src/cli.ts"
+  },
+  "private": true,
+  "scripts": {
+    "start": "bun src/cli.ts",
+    "help": "bun src/cli.ts --help"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
